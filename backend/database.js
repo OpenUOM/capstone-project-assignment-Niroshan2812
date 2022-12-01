@@ -130,7 +130,7 @@ const addStudent = async (id, name, age, religion) => {
         knex_db
             .raw(sql, [id, name, age,religion])
             .then(() => {
-                resolve({status: "Successfully inserted Student"})
+                resolve({status: "Successfully inserted Student"});
             })
             .catch((error) => {
                 reject(error);

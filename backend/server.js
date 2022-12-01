@@ -1,7 +1,5 @@
 
 
-//aboue code are implemented in down are same manner wich is previous 
-
 const express = require ("express");
 
 const {
@@ -14,8 +12,7 @@ const {
   readStudentInfo,
   readTeacherInfo,
   updateStudent,
-  updateTeacher,
-  dbinitialize
+  updateTeacher  
 } = require ("./database.js");
 
 const app = express();
