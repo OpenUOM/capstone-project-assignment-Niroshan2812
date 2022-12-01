@@ -25,7 +25,7 @@ export class AddNewStudentComponent implements OnInit {
 
 
     this.service.addStudent(student).subscribe((response)=>{
-      this.router.navigate(['student'])
+      this.router.navigate(['student']) // in router method this used for table object is see the error occor or not 
     },(error)=>{
       console.log('ERROR - ', error)
     })
