@@ -9,7 +9,7 @@ import { TeacherTableComponent } from './components/teacher-table/teacher-table.
 
 
 const routes: Routes = [
-  { path: 'teacher', component: TeacherTableComponent },
+  { path: '', component: TeacherTableComponent },
   { path: 'student', component: StudentTableComponent },
   { path: 'addTeacher', component: AddNewTeacherComponent },
   { path: 'addStudent', component: AddNewStudentComponent },
